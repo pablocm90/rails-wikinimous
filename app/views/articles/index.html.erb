@@ -1,0 +1,9 @@
+<h1>articles list</h1>
+<ul>
+<% @articles.each do |article| %>
+<li>
+  <p> <%= article.title %> </p>
+  <p> <%= article.content %> </p>
+</li>
+<% end %>
+</ul>
